@@ -64,7 +64,7 @@ def give_random_answers(dataset):
 def always_say_zero(dataset):
 	return np.zeros(len(dataset['sample_ids']))
 
-# Always return class label 0
+# Always return class label 1
 def always_say_one(dataset):
 	return np.ones(len(dataset['sample_ids']))
 
